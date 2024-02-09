@@ -1,0 +1,39 @@
+﻿using CursoCSharp.Fundamentos;
+using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.ExplicandoConceitos;
+namespace CursoCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { //Metodo Main usado para iniciar a aplicação
+            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+                {"******************ATALHOS******************", Atalhos.Executar},
+                {"**************MÉTODOS RÁPIDOS**************", MetodosRapidos.Executar},
+                {"PRIMEIRO PROGRAMA - Fundamentos", PrimeiroPrograma.Executar},
+                {"COMENTARIOS - Fundamentos", Comentarios.Executar},
+                {"VARIÁVEIS e CONSTANTES - Fundamentos", VariaveisEConstantes.Executar},
+                {"INFERENCIA - Fundamentos", Inferencia.Executar},
+                {"INTERPOLAÇÃO DE STRINGS - Fundamentos", InterpolacaoDeStrings.Executar},
+                {"NOTACAO PONTO - Fundamentos", NotacaoPonto.Executar},
+                {"LENDO DADOS - Fundamentos", LendoDadosDoConsole.Executar},
+                {"CONVERSÕES - Fundamentos", Conversoes.Executar},
+                {"OPERADORES ARITMÉTICOS - Fundamentos", Conversoes.Executar},
+
+                //CLASSES E MÉTODOS
+                {"CLASSES E METODOS 2 - Classes e Métodos", Data.Executar},
+                {"METODOS - Classes e Métodos", Metodos.Executar},
+                {"MEMBROS - Classes e Métodos", Membros.Executar},
+                {"CONSTRUTORES - Classes e Métodos", Construtores.Executar},
+                {"MÉTODOS COM RETORNO - Classes e Métodos", MetodosComRetorno.Executar},
+                {"Métodos Com Retorno #02 Encadear varias chamadas this - Classes e Métodos", CalculadoraCadeia.Executar},
+                {"MÉTODOS ESTÁTICOS - Classes e Métodos", MetodosEstaticos.Executar},
+                {"ATRIBUTOS ESTÁTICOS - Classes e Métodos", AtributosEstaticos.Executar},
+                {"Get e Set - Classes e Métodos", GetSet.Executar},
+            });
+
+            central.SelecionarEExecutar();
+        }
+
+    }
+}

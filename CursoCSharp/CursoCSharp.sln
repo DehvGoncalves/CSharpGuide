@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34316.72
+VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp", "CursoCSharp\CursoCSharp.csproj", "{1E9765F3-FE5F-4353-94F3-122A372D3AA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp", "CursoCSharp.csproj", "{58C810C5-B908-4663-A1E9-76C02EED802E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E9765F3-FE5F-4353-94F3-122A372D3AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E9765F3-FE5F-4353-94F3-122A372D3AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E9765F3-FE5F-4353-94F3-122A372D3AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E9765F3-FE5F-4353-94F3-122A372D3AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C810C5-B908-4663-A1E9-76C02EED802E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C810C5-B908-4663-A1E9-76C02EED802E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C810C5-B908-4663-A1E9-76C02EED802E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C810C5-B908-4663-A1E9-76C02EED802E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BF2B0D19-A1BA-4003-A346-88C6B5665209}
+		SolutionGuid = {73D3142D-DE4C-4EDE-85C1-E8AC9C8CB389}
 	EndGlobalSection
 EndGlobal
