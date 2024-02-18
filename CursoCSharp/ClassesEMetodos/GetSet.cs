@@ -40,7 +40,10 @@ namespace CursoCSharp.ClassesEMetodos
         }
         public void SetCilindrada(int cilindrada) //Metodo para setar a cilindrada
         {
-            Cilindrada = cilindrada;
+            if (cilindrada > 0) //Só vai salvar o valor se ele for maior que 0, caso contrário ele permanecerá com valor padrão 0. Isso é uma forma segura de garantir que não terá valor negativo. Tbm posso mudar o tipo de int para uint que converterá o valor negativo para positivo. 
+            {
+                Cilindrada = cilindrada;
+            }
         }
         public static void InserirMoto(String marca, String modelo, int cilindrada)//Modelo incluido para testar o void. Onde consigo chamar o metodo sem instanciar a classe
         {

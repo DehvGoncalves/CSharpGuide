@@ -1,6 +1,8 @@
 ﻿using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.ExplicandoConceitos;
+using static CursoCSharp.ClassesEMetodos.Filme;
+
 namespace CursoCSharp
 {
     class Program
@@ -30,6 +32,10 @@ namespace CursoCSharp
                 {"MÉTODOS ESTÁTICOS - Classes e Métodos", MetodosEstaticos.Executar},
                 {"ATRIBUTOS ESTÁTICOS - Classes e Métodos", AtributosEstaticos.Executar},
                 {"Get e Set - Classes e Métodos", GetSet.Executar},
+                {"PROPS - Classes e Métodos", Props.Execurar},
+                {"Readonly Atributo somente leitura, Constante - Classes e Métodos", Readonly.Executar},
+                {"enum - Classes e Métodos", ExemploEnum.Executar},
+                {"Struct - Classes e Métodos", ExemploStruct.Executar},
             });
 
             central.SelecionarEExecutar();
