@@ -7,8 +7,7 @@ namespace CursoCSharp
 {
     class Program
     {
-        static void Main(string[] args)
-        { //Metodo Main usado para iniciar a aplicação
+        static void Main(string[] args) { //Metodo Main usado para iniciar a aplicação
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"******************ATALHOS******************", Atalhos.Executar},
                 {"**************MÉTODOS RÁPIDOS**************", MetodosRapidos.Executar},
@@ -36,6 +35,7 @@ namespace CursoCSharp
                 {"Readonly Atributo somente leitura, Constante - Classes e Métodos", Readonly.Executar},
                 {"enum - Classes e Métodos", ExemploEnum.Executar},
                 {"Struct - Classes e Métodos", ExemploStruct.Executar},
+                {"Struct x Classes Classes e Métodos", StructXClasse.Executar},
             });
 
             central.SelecionarEExecutar();
