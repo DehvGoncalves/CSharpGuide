@@ -32,10 +32,12 @@ namespace CursoCSharp
                 {"ATRIBUTOS ESTÁTICOS - Classes e Métodos", AtributosEstaticos.Executar},
                 {"Get e Set - Classes e Métodos", GetSet.Executar},
                 {"PROPS - Classes e Métodos", Props.Execurar},
-                {"Readonly Atributo somente leitura, Constante - Classes e Métodos", Readonly.Executar},
-                {"enum - Classes e Métodos", ExemploEnum.Executar},
-                {"Struct - Classes e Métodos", ExemploStruct.Executar},
-                {"Struct x Classes Classes e Métodos", StructXClasse.Executar},
+                {"READONLY Atributo somente leitura, Constante - Classes e Métodos", Readonly.Executar},
+                {"ENUM - Classes e Métodos", ExemploEnum.Executar},
+                {"STRUCT - Classes e Métodos", ExemploStruct.Executar},
+                {"STRUCT x CLASSES - Classes e Métodos", StructXClasse.Executar},
+                {"VALOR Vs REFERENCIA - Classes e Métodos", ValorVsReferencia.Executar},
+                {" Reg/Out Parametros por referência - Classes e Métodos", ParametrosPorReferenciaRefOut.Executar},
             });
 
             central.SelecionarEExecutar();
