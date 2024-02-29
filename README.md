@@ -1,8 +1,6 @@
 #CSharpGuide
 
-Bem-vindo ao meu projeto!
+Welcome to my project!
 
-Aqui você encontrará exemplos simples e explicações claras sobre vários tópicos de programação em C#. 
-Cada classe do projeto cobre um conceito específico, desde fundamentos básicos até coleções, classes e métodos. 
-
-Espero que este projeto seja útil para você no seu aprendizado de C#!
+Here you will find simple and clear examples on various C# programming topics. Each class in the project covers a specific concept, from basic fundamentals to collections, classes and methods.
+I hope this project is useful to you in your C# learning! 📚
