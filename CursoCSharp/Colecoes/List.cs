@@ -55,4 +55,47 @@ namespace CursoCSharp.Colecoes {
             Console.WriteLine($"O livro 'Game of Thrones' está no índice {indice} do carrinho.");
         }
     }
+
+
+    public class TesteListaClientes {
+        public string Nome;
+        public int Idade;
+
+        public TesteListaClientes(string nome, int idade) {
+            Nome = nome;
+            Idade = idade;
+        }
+        public TesteListaClientes() { }
+
+    }
+    public class Cliente {
+        public static void Executar() {
+            var clientes = new TesteListaClientes("Debora", 31);
+            var listaDeClientes = new List<TesteListaClientes>();
+
+            listaDeClientes.Add(clientes);
+            listaDeClientes.Add(new TesteListaClientes("Poloana", 33));
+            listaDeClientes.Add(new TesteListaClientes("Carla", 34));
+            listaDeClientes.Add(new TesteListaClientes("Karla", 35));
+
+            int indice = listaDeClientes.IndexOf(clientes);
+
+            foreach (var id in listaDeClientes) {
+                Console.WriteLine($"Nome: {id.Nome}, Idade: {id.Idade}");
+            }
+
+            //Excluir o nome que escrevi errado, Karla
+            Console.WriteLine($"Excluí o último nome '{listaDeClientes[3].Nome}', que estava escrito errado. Idade: {listaDeClientes[3].Idade}");
+
+            listaDeClientes.RemoveAt(3);
+            foreach (var cont in listaDeClientes) {
+                Console.WriteLine($"Nova Lista, após a exclusão:");
+                Console.WriteLine($" {cont.Nome}, {cont.Idade}");
+            }
+
+
+        }
+
+    }
+
 }
