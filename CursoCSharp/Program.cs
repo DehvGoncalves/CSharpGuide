@@ -1,7 +1,8 @@
 ﻿using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.ExplicandoConceitos;
-using static CursoCSharp.ClassesEMetodos.Filme;
+using CursoCSharp.Colecoes;
+
 
 namespace CursoCSharp
 {
@@ -39,6 +40,10 @@ namespace CursoCSharp
                 {"VALOR Vs REFERENCIA - Classes e Métodos", ValorVsReferencia.Executar},
                 {" Reg/Out Parametros por referência - Classes e Métodos", ParametrosPorReferenciaRefOut.Executar},
                 {" PARAMETRO COM VALOR PADRÃO - Classes e Métodos", ParametroPadrao.Executar},
+
+                //COLEÇÕES
+                {" ARRAY - Coleções", Colecoes.Array.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" LIST - Coleções", ColecoesList.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
             });
 
             central.SelecionarEExecutar();
