@@ -47,6 +47,7 @@ namespace CursoCSharp
                 {" LIST - Coleções, Irmãs kkkk", Colecoes.Cliente.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" ArrayList - Coleções", ColecoesArrayList.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" SET - Coleções", ColecoesSet.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" QUEUE, Fila - Coleções", ColecoesQueueFila.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
             });
 
             central.SelecionarEExecutar();
