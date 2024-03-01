@@ -48,6 +48,9 @@ namespace CursoCSharp
                 {" ArrayList - Coleções", ColecoesArrayList.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" SET - Coleções", ColecoesSet.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" QUEUE, Fila - Coleções", ColecoesQueueFila.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" IGUALDADE, (Equals e GetHashCode) - Coleções", Igualdade.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Stack, Pilha, (Fila de Pilha) - Coleções", ColecoesStack.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Dictionary - Coleções", ColecoesDictionary.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
             });
 
             central.SelecionarEExecutar();

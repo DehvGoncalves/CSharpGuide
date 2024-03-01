@@ -10,6 +10,21 @@ namespace CursoCSharp.Colecoes {
             this.Nome = nome;
             this.Preco = preco;
         }
+
+        //Criando método para que o Equals mude o jeito de comparar pelo espaço de memória para que ele passe a comparar em termos de valores
+        public override bool Equals(object obj) {
+            Produto outro = (Produto)obj;
+            bool mesmoNome = Nome == outro.Nome;
+            bool mesmoPreco = Preco == outro.Preco;
+            return mesmoNome && mesmoPreco;
+
+        }
+        //O HashCode é como se fosse um indice de banco de dados, é como se fosse uma forma rápida de agrupar um conjunto de dados, e depois ele vai ser verificado com o Equals
+        //Imagine que vc tem uma lista de nomes com: Ana, Rafa e Bia, ana e bia tem 3 letras e Rafa com 4 letras, hascod 4. Dado a lista com 4 elementos ele vai procurar oque tem o mesmo hascod, e já vai cortar pela metade pra filtrar mais rápido.
+        //Uma vez que vc definiu o Equals vc tem que definir um Hashcod
+        public override int GetHashCode() {
+            return Nome.Length;
+        }
     }
 
     public class ColecoesList {

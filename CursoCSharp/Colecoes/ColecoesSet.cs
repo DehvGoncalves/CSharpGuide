@@ -3,7 +3,12 @@ using System.Collections.Generic;
 
 namespace CursoCSharp.Colecoes {
     //Ao trabalhar com set e não list algumas coisas mudam. O Set não tem índice, então não tenho mais a possibilidade de remover um índice específico ou retornar um índice, pois é não indexado.
-    //O Set também é uma estrutura que não aceita repetição. Usamos o método UnionWith para fazer união de listas.
+    //O Set também é uma estrutura que não aceita repetição. Estruturas do tipo Hast junto com o GetHastcord faz com que não deixa duplicar 
+    //O HasCod foi implementado na classe produto a partir da linha 25, esse aqui:
+    /*        public override int GetHashCode() {
+            return Nome.Length;
+        }
+     */
 
     public class ColecoesSet {
         // Lembrando que Produto é um tipo de classe criada em ColecoesList.
