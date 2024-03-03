@@ -2,6 +2,7 @@
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.ExplicandoConceitos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
 
 namespace CursoCSharp
@@ -51,6 +52,9 @@ namespace CursoCSharp
                 {" IGUALDADE, (Equals e GetHashCode) - Coleções", Igualdade.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" Stack, Pilha, (Fila de Pilha) - Coleções", ColecoesStack.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" Dictionary - Coleções", ColecoesDictionary.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                
+                //PROGRAMAÇÃO ORIENTADA A OBJETO
+                {" HERANÇA - OO", Heranca.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
             });
 
             central.SelecionarEExecutar();
