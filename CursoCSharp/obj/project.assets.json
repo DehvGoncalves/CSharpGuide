@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Encapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Encapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../Encapsulamento/Encapsulamento.csproj",
+      "msbuildProject": "../Encapsulamento/Encapsulamento.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Encapsulamento >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\de.goncalves\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj": {
+              "projectPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -55,6 +55,8 @@ namespace CursoCSharp
                 
                 //PROGRAMAÇÃO ORIENTADA A OBJETO
                 {" HERANÇA - OO", Heranca.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" CONSTRUTOR THIS - OO", ConstrutorThis.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" ENCAPSULAMENTO - OO", OO.Encapsulamento.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
             });
 
             central.SelecionarEExecutar();

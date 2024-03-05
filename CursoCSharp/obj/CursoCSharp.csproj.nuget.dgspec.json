@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\de.goncalves\\source\\repos\\personal\\cursoCSharp\\CursoCSharp.csproj": {}
+    "C:\\Users\\de.goncalves\\source\\repos\\personal\\CursoCSharp\\CursoCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\de.goncalves\\source\\repos\\personal\\cursoCSharp\\CursoCSharp.csproj": {
+    "C:\\Users\\de.goncalves\\source\\repos\\personal\\CursoCSharp\\CursoCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\de.goncalves\\source\\repos\\personal\\cursoCSharp\\CursoCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\de.goncalves\\source\\repos\\personal\\CursoCSharp\\CursoCSharp.csproj",
         "projectName": "CursoCSharp",
-        "projectPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\cursoCSharp\\CursoCSharp.csproj",
+        "projectPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\CursoCSharp\\CursoCSharp.csproj",
         "packagesPath": "C:\\Users\\de.goncalves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\cursoCSharp\\obj\\",
+        "outputPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\CursoCSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\de.goncalves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj": {
+                "projectPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj",
+        "projectName": "Encapsulamento",
+        "projectPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\Encapsulamento.csproj",
+        "packagesPath": "C:\\Users\\de.goncalves\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\de.goncalves\\source\\repos\\personal\\Encapsulamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\de.goncalves\\AppData\\Roaming\\NuGet\\NuGet.Config",
