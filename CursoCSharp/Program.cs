@@ -3,7 +3,7 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.ExplicandoConceitos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
-
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp
 {
@@ -58,7 +58,15 @@ namespace CursoCSharp
                 {" CONSTRUTOR THIS - OO", ConstrutorThis.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" ENCAPSULAMENTO - OO", OO.Encapsulamento.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
                 {" POLIMORFISMO", Polimorfismo.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
-                {" Abstract, CLASSE ABSTRATA", Abstract.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Abstract, CLASSE ABSTRATA - OO", Abstract.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" INTERFACE, permite herança multipla - OO", Interface.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Sealed Não permite herança na classe e não é possivel modificar o método - OO", Sealed.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                              
+                //METODOS & FUNÇÕES
+                {" Lambda - Metodos e Funções", ExemploLambda.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Lambda Delegate - Metodos e Funções", LambdasDelegate.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Usando Delegate - Metodos e Funções", UsandoDelegate.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
+                {" Delegates com funções anonimas - Metodos e Funções", DelegateFuncAnonima.Executar},// O nome Array é uma palavra reservada e dará conflito. Com isso para referênciar você deve informar o namespace antes.
             });
 
             central.SelecionarEExecutar();
