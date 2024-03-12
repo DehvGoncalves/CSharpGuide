@@ -23,6 +23,7 @@ namespace CursoCSharp.MetodosEFuncoes {
                 Array.Reverse(charArray);
                 return new string(charArray);
 
+                //observe que não estou usando o simbolo =>
             };
         }
     }
